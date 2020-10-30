@@ -5,8 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body class="page1">
+
 		<div id="header">
-			
 			<div id="nav">
 				<ul>
 					<li><a href="index.php">Home</a></li>
@@ -16,10 +16,12 @@
 					<li><a href="admin.php">Admin Login</a></li>
 				</ul>
 			</div>
+
 			<div id="logo">
 				<h1>Welcome to</h1>
 				<h2>Hotel Management</h2>
 			</div>
+
 		</div>
 		<div id="f1">
 			<table>
@@ -28,7 +30,7 @@
 					<th width="20%" height="50px">Check in Date</th>
 					<th width="20%" height="50px">Check out date</th>
 					<th width="20%" height="50px">Room</th>
-					<td rowspan="2"><input type="submit" value="Submit" name="submit"></td>
+					<td rowspan="2"><input type="submit" name="submit"></td>
 				</tr>
 				<tr>
 					<td width="20%" height="50px"><center></center><input type="text" name="d1" placeholder="Enter Destination"></center></td>
